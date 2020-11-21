@@ -1,6 +1,6 @@
 {
   "name": "@reaktivo/babel-plugin-rkx",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "index.js",
   "author": "Marcel Miranda",
   "dependencies": {
