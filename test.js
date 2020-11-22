@@ -11,13 +11,11 @@ export let node = <p>something</p>
 
 const x = useState(0);
 
-<>
-  <h1>Hello world</h1>
-</>
+<h1>Hello world</h1>;
 `;
 
 const output = babel.transformSync(code, {
   plugins: [plugin],
 });
 
-console.log(output.code); 
+console.log(output.code);

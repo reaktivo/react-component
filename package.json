@@ -1,10 +1,13 @@
 {
-  "name": "@reaktivo/babel-plugin-rkx",
-  "version": "1.0.4",
+  "name": "@reaktivo/react-component",
+  "version": "0.0.4",
   "main": "index.js",
   "author": "Marcel Miranda",
   "dependencies": {
-    "@babel/core": "^7.12.3",
-    "@babel/plugin-transform-react-jsx": "^7.12.7"
+    "@babel/plugin-transform-react-jsx": "^7.12.7",
+    "babel-loader": "^8.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3"
   }
 }
